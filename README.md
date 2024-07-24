@@ -23,7 +23,7 @@ accelerometer data.
 
 ## Requirements
 
-- Rust 1.31+
+- Rust 1.47+
 
 ## Supported Crates
 
@@ -33,11 +33,20 @@ and/or the [`RawAccelerometer`] traits from this crate:
 
 | Device Name | Description | Crate + Docs |
 |-------------|-------------|--------------|
+| [ADXL313]   | Analog Devices 3-axis accelerometer | [![crates.io][adxl313-crate-img]][adxl313] [![docs.rs][adxl313-docs-img]][adxl313-docs] |
 | [ADXL343]   | Analog Devices 3-axis accelerometer | [![crates.io][adxl343-crate-img]][adxl343] [![docs.rs][adxl343-docs-img]][adxl343-docs] |
 | [ADXL355]   | Analog Devices 3-axis accelerometer | [![crates.io][adxl355-crate-img]][adxl355] [![docs.rs][adxl355-docs-img]][adxl355-docs] |
 | [LIS2DH12]  | ST 3-Axis MEMS Accelerometer | [![crates.io][lis2dh12-crate-img]][lis2dh12] [![docs.rs][lis2dh12-docs-img]][lis2dh12-docs] |
 | [LIS3DH]    | High Performance ST 3-Axis MEMS "nano" Accelerometer | [![crates.io][lis3dh-crate-img]][lis3dh] [![docs.rs][lis3dh-docs-img]][lis3dh-docs] |
 | [MMA7660FC] | Grove 3-Axis Digital Accelerometer  | [![crates.io][mma7660fc-crate-img]][mma7660fc] [![docs.rs][mma7660fc-docs-img]][mma7660fc-docs] |
+| [STK8BA58] | SENSORTEK 3-Axis MEMS Accelerometer | [![crates.io][stk8ba58-crate-img]][stk8ba58] [![docs.rs][stk8ba58-docs-img]][stk8ba58-docs] |
+| [KXTJ31057]   | Silicon Micromachined  3-axis accelerometer | [![crates.io][kxtj31057-crate-img]][kxtj31057] [![docs.rs][kxtj31057-docs-img]][kxtj31057-docs] |
+
+
+[adxl313]: https://github.com/mvniekerk/adxl313.rs
+[adxl313-crate-img]: https://img.shields.io/crates/v/adxl313.svg
+[adxl313-docs-img]: https://docs.rs/adxl313/badge.svg
+[adxl313-docs]: https://docs.rs/adxl313/
 
 [adxl343]: https://github.com/NeoBirth/ADXL343.rs
 [adxl343-crate-img]: https://img.shields.io/crates/v/adxl343.svg
@@ -63,6 +72,17 @@ and/or the [`RawAccelerometer`] traits from this crate:
 [mma7660fc-crate-img]: https://img.shields.io/crates/v/mma7660fc.svg
 [mma7660fc-docs-img]: https://docs.rs/mma7660fc/badge.svg
 [mma7660fc-docs]: https://docs.rs/mma7660fc/
+
+[STK8BA58]: https://gitlab.com/slusheea/stk8ba58/
+[stk8ba58-crate-img]: https://img.shields.io/crates/v/stk8ba58.svg
+[stk8ba58-docs-img]: https://docs.rs/stk8ba58/badge.svg
+[stk8ba58-docs]: https://docs.rs/stk8ba58/
+
+[kxtj31057]: https://github.com/p3zhy/kxtj3-1057/
+[kxtj31057-crate-img]: https://img.shields.io/crates/v/kxtj3-1057.svg
+[kxtj31057-docs-img]: https://docs.rs/kxtj3-1057/badge.svg
+[kxtj31057-docs]: https://docs.rs/kxtj3-1057/
+
 
 ## Orientation Tracking (3-axis accelerometers only)
 
